@@ -5,7 +5,7 @@ function factor(n) {
   ret=[];
   i=2;
   m=n
-  while (i<=n) {
+  while (i*i<=n) {
     while (m%i==0) {
       m/=i
       ret.push(i)
